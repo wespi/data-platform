@@ -1,0 +1,32 @@
+      # Default values for the generator
+      # this file can be used as a template for a custom configuration
+      # or to know about the different variables available for the generator
+      platys:
+          platform-name: 'data-platform'
+          platform-stack: 'trivadis/platys-modern-data-platform'
+          platform-stack-version: '1.14.0'
+          structure: 'flat'
+      # ========================================================================
+      # Global configuration, valid for all or a group of services
+      # ========================================================================
+      # Timezone, use a Linux string such as Europe/Zurich or America/New_York
+      use_timezone: ''
+      # the name of the repository to use for private images, which are not on docker hub (currently only Oracle images)
+      private_docker_repository_name: 'trivadis'
+      #
+      # ===== Jupyter ========
+      #
+      JUPYTER_enable: true
+      #
+      # ===== MongoDB ========
+      #
+      MONGO_enable: true
+      #
+      # ===== Neo4J ========
+      #
+      NEO4J_enable: true
+      #
+      # ===== Python image ========
+      #
+      PYTHON_enable: true
+      
